@@ -11,4 +11,16 @@ public class Main {
         System.out.println(b2.meth());
 
     }
+
+    static class A{
+        public String meth(){
+            return "Invoking method from class A";
+        }
+    }
+
+    static class B extends A{
+        public String meth(){
+            return "Method is overriden in Extended class B";
+        }
+    }
 }
