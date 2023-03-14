@@ -5,5 +5,10 @@ public class Main {
         B b = new B();
 
         System.out.println(b.meth());
+
+        B b2 = new B();
+
+        System.out.println(b2.meth());
+
     }
 }
